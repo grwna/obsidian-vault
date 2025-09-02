@@ -1,0 +1,19 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":computer:",
+    ":pencil:",
+    ":pencil2:",
+    ":sparkles:",
+    ":star:",
+    ":bookmark_tabs:",
+    ":rocket:",
+    ":rabbit2:",
+    ":snail:",
+    ":racehorse:",
+    ":skull:"
+  ]
+}
