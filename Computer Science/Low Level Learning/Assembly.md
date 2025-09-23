@@ -36,8 +36,8 @@ OR
 
 >[!warning] Important
 >System V ABI[^1] is different than direct kernel (syscalls) convention
->System V ABI - 3rd is `rcx`
->Syscall - 3rd is `r10`
+>System V ABI - 4th is `rcx`
+>Syscall - 4th is `r10`
 >
 >As for x86, C calling convention uses the stack while syscalls uses the registers
 

@@ -20,3 +20,11 @@ Also, you don't have to get a `pop rdi; ret`, you can use the address of a line 
 >
 >By next part of the payload i mean after an 8-byte value that gets popped to `rbp` by the previous function. Read ([[Stack#Behaviour on Return]])
 
+# Characteristics
+## Stack Pivoting
+ROP chains require space on the stack. We cannot write an infinitely long ROP chains, because there is a limit to how long the code is after current RIP. In order to bypass this limit, we can do stack pivoting (read: [ir0nstone](https://ir0nstone.gitbook.io/notes/binexp/stack/stack-pivoting)).
+
+In short, stack pivoting is a way to "fake" a stack by making RSP point to a controllable memory. This can be used to bypass DEP/NX.
+
+## Libc
+ GOT is way more important than PLT in terms of theory, but both play a crucial role in exploit.
