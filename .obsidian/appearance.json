@@ -2,5 +2,6 @@
   "showRibbon": false,
   "enabledCssSnippets": [
     "bold"
-  ]
+  ],
+  "theme": "obsidian"
 }
