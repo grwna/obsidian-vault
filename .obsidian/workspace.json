@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "212c47fc9219e417",
+        "id": "517da9ee729d7ba2",
         "type": "tabs",
         "children": [
           {
-            "id": "534bb2bd23c9398a",
+            "id": "034146ef2848c5a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KULIAH/SisBasDat/4. Indexing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Indexing"
+            }
+          },
+          {
+            "id": "74d05a3535fd18f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "7. Query Processing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,14 +184,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "534bb2bd23c9398a",
+  "active": "74d05a3535fd18f1",
   "lastOpenFiles": [
-    "KULIAH/SisBasDat/6. Index Tuning.md",
     "KULIAH/SisBasDat/4. Indexing.md",
+    "KULIAH/SisBasDat/7. Query Processing.md",
+    "KULIAH/SisBasDat/6. Index Tuning.md",
+    "Pasted image 20250928231817.png",
+    "Pasted image 20250928230518.png",
     "KULIAH/SisBasDat/5. Schema Tuning.md",
     "KULIAH/TBFO/OpenMP.md",
     "CTF/CTF Learn.md",
-    "KULIAH/SisBasDat/7. Query Processing.md",
     "index.md",
     "KULIAH/SisBasDat/6. SQL Performance Tuning.md",
     "KULIAH/SisParTer",
@@ -207,11 +224,8 @@
     "IMAGES/finite_automata_example.png.png",
     "IMAGES/Pasted image 20250712203434.png",
     "IMAGES/Pasted image 20250713132600.png",
-    "IMAGES/Pasted image 20250713132945.png",
-    "IMAGES/Pasted image 20250713133046.png",
     "Computer Science/Low Level Learning/Assembly.md",
     "CTF/Reverse Engineering/Introduction to Reverse Engineering.md",
-    "CTF/PWN/Tools.md",
     "KULIAH"
   ]
 }
