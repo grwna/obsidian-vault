@@ -1,7 +1,7 @@
 An api for shared memory, designed for systems where each thread or process can access the same memory.
 
 # Pragmas
-it uses #pragma, also called a directive, which tells the compiler how to handle code.
+it uses `#pragma`, also called a directive, which tells the compiler how to handle code.
 
 `#pragma omp parallel` is the most basic OMP parallelization pragma.
 It must be placed directly before a `for` loop.
