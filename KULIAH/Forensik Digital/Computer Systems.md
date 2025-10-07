@@ -1,0 +1,1 @@
+Ahli forensik perlu paham sistem komputer yang beragam2.

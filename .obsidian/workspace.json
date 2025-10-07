@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "034146ef2848c5a2",
+            "id": "0d619d85fba0274a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KULIAH/SisBasDat/4. Indexing.md",
+                "file": "KULIAH/Forensik Digital/Cybercrime and Cyber Law.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Indexing"
+              "title": "Cybercrime and Cyber Law"
             }
           },
           {
-            "id": "74d05a3535fd18f1",
+            "id": "eca32af8f92c32b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/WEB EX/PortSwigger/Server Side Labs.md",
+                "file": "KULIAH/SBD/9. SQL Performance Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Server Side Labs"
+              "title": "9. SQL Performance Tuning"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0efa854708d1fa42",
@@ -185,51 +184,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74d05a3535fd18f1",
+  "active": "eca32af8f92c32b1",
   "lastOpenFiles": [
-    "Pasted image 20250928231817.png",
-    "CTF/WEB EX/PortSwigger",
-    "Pasted image 20250928230518.png",
     "Pasted image 20250929101706.png",
-    "Pasted image 20250929204249.png",
-    "README.md",
-    "CTF/WEB EX/Authentication.md",
-    "CTF/WEB EX/PortSwigger/Server Side Labs.md",
-    "KULIAH/SisBasDat/8. Query Optimization.md",
-    "KULIAH/WBD/8. Authentication.md",
-    "CTF/WEB EX",
-    "KULIAH/WBD/7. Server Side Data Access, Authentication.md",
-    "KULIAH/WBD/6. State Handling.md",
-    "KULIAH/WBD",
-    "KULIAH/AI/6. Knowledge Based Systems.md",
-    "KULIAH/SisBasDat/7. Query Processing.md",
-    "KULIAH/SisBasDat/4. Indexing.md",
-    "KULIAH/SisBasDat/6. Index Tuning.md",
-    "KULIAH/SisBasDat/5. Schema Tuning.md",
-    "KULIAH/TBFO/OpenMP.md",
-    "CTF/CTF Learn.md",
-    "index.md",
-    "KULIAH/SisParTer",
-    "KULIAH/AI/3. Classical & Local Search.md",
-    "KULIAH/AI/2. Intelligent Agent.md",
-    "KULIAH/AI/5. Constraint Satisfaction Problem.md",
-    "KULIAH/AI/4. Adversarial Search.md",
-    "KULIAH/AI/1. Introduction.md",
-    "KULIAH/SisBasDat/2. Performance Tuning.md",
-    "KULIAH/SisBasDat/1. Introduction.md",
-    "KULIAH/SisBasDat/3. File Storage.md",
+    "KULIAH/Forensik Digital/Computer Systems.md",
+    "KULIAH/SBD/9. SQL Performance Tuning.md",
     "KULIAH/Forensik Digital/Cybercrime and Cyber Law.md",
-    "CTF/PWN/Return Oriented Programming.md",
+    "SisParTer.md",
+    "KULIAH/SisParTer",
+    "KULIAH/SisParTer/Sistem Paralel dan Terdistribusi.md",
+    "KULIAH/SisParTer/OpenMP.md",
+    "KULIAH/TBFO/Finite Automata.md",
+    "README.md",
+    "KULIAH/AI/7. Rule Based Systems.md",
+    "Pasted image 20251006115948.png",
+    "KBS.md",
+    "KULIAH/AI/6. Knowledge Based Systems.md",
+    "CTF/WEB EX/Server Side.md",
+    "KULIAH/WBD/9. Web Service.md",
+    "CTF/WEB EX/PortSwigger Plan.md",
+    "CTF/WEB EX/SQLi.md",
+    "CTF/WEB EX/PortSwigger/Server Side Labs.md",
+    "KULIAH/Project Management/Project Time Management.md",
+    "KULIAH/SBD/7. Query Processing.md",
+    "KULIAH/SBD/8. Query Optimization.md",
+    "KULIAH/Project Management",
+    "CTF/CTF Learn.md",
+    "CTF/WEB EX/Server Side",
+    "KULIAH/SBD/6. Index Tuning.md",
+    "KULIAH/WBD/8. Authentication.md",
+    "Server Side Labs.md",
+    "CTF/WEB EX/PortSwigger",
+    "KULIAH/WBD/6. State Handling.md",
+    "KULIAH/WBD/7. Server Side Data Access, Authentication.md",
+    "CTF/WEB EX",
+    "KULIAH/WBD",
+    "Pasted image 20250929204249.png",
+    "Pasted image 20250928231817.png",
+    "Pasted image 20250928230518.png",
+    "KULIAH/SisParTer",
     "KULIAH/Forensik Digital",
     "IMAGES/Pasted image 20250906124651.png",
     "IMAGES/Pasted image 20250906124631.png",
     "IMAGES/Pasted image 20250906122259.png",
     "KULIAH/AI",
-    "KULIAH/SisBasDat",
+    "KULIAH/SBD",
     "IMAGES/Pasted image 20250905005132.png",
-    "KULIAH/TBFO",
-    "IMAGES/example_dfa.png",
-    "IMAGES/finite_automata_example.png.png",
-    "KULIAH"
+    "IMAGES/example_dfa.png"
   ]
 }
