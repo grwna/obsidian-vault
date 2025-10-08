@@ -8,35 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d619d85fba0274a",
+            "id": "efbf34095abcf004",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KULIAH/Forensik Digital/Cybercrime and Cyber Law.md",
+                "file": "KULIAH/SisParTer/Vectorization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cybercrime and Cyber Law"
+              "title": "Vectorization"
             }
           },
           {
-            "id": "eca32af8f92c32b1",
+            "id": "99245479453a2dc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KULIAH/SBD/9. SQL Performance Tuning.md",
+                "file": "KULIAH/AI/9. Data Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. SQL Performance Tuning"
+              "title": "9. Data Science"
+            }
+          },
+          {
+            "id": "9fc25c4c3af5666b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KULIAH/SBD/11. Transaction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. Transaction"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0efa854708d1fa42",
@@ -184,45 +199,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eca32af8f92c32b1",
+  "active": "9fc25c4c3af5666b",
   "lastOpenFiles": [
-    "Pasted image 20250929101706.png",
-    "KULIAH/Forensik Digital/Computer Systems.md",
-    "KULIAH/SBD/9. SQL Performance Tuning.md",
-    "KULIAH/Forensik Digital/Cybercrime and Cyber Law.md",
-    "SisParTer.md",
-    "KULIAH/SisParTer",
-    "KULIAH/SisParTer/Sistem Paralel dan Terdistribusi.md",
-    "KULIAH/SisParTer/OpenMP.md",
-    "KULIAH/TBFO/Finite Automata.md",
-    "README.md",
-    "KULIAH/AI/7. Rule Based Systems.md",
-    "Pasted image 20251006115948.png",
-    "KBS.md",
-    "KULIAH/AI/6. Knowledge Based Systems.md",
-    "CTF/WEB EX/Server Side.md",
-    "KULIAH/WBD/9. Web Service.md",
-    "CTF/WEB EX/PortSwigger Plan.md",
-    "CTF/WEB EX/SQLi.md",
+    "KULIAH/AI/9. Data Science.md",
+    "KULIAH/SBD/11. Transaction.md",
+    "KULIAH/SisParTer/Vectorization.md",
+    "Pasted image 20251012155305.png",
+    "KULIAH/SBD/10. Database Security.md",
+    "KULIAH/AI/8. Learning Agent.md",
+    "CTF/WEB EX/SSRF.md",
+    "CTF/WEB EX/PortSwigger/PortSwigger Plan.md",
+    "CTF/WEB EX/Path Traversal.md",
+    "KULIAH/SisParTer/GPU.md",
     "CTF/WEB EX/PortSwigger/Server Side Labs.md",
-    "KULIAH/Project Management/Project Time Management.md",
-    "KULIAH/SBD/7. Query Processing.md",
-    "KULIAH/SBD/8. Query Optimization.md",
-    "KULIAH/Project Management",
-    "CTF/CTF Learn.md",
-    "CTF/WEB EX/Server Side",
-    "KULIAH/SBD/6. Index Tuning.md",
-    "KULIAH/WBD/8. Authentication.md",
-    "Server Side Labs.md",
-    "CTF/WEB EX/PortSwigger",
-    "KULIAH/WBD/6. State Handling.md",
-    "KULIAH/WBD/7. Server Side Data Access, Authentication.md",
-    "CTF/WEB EX",
-    "KULIAH/WBD",
-    "Pasted image 20250929204249.png",
+    "KULIAH/SisParTer 1",
     "Pasted image 20250928231817.png",
+    "CTF/WEB EX/PortSwigger",
     "Pasted image 20250928230518.png",
+    "Pasted image 20250929101706.png",
+    "Pasted image 20250929204249.png",
+    "README.md",
+    "CTF/WEB EX/Authentication.md",
+    "KULIAH/SisBasDat/8. Query Optimization.md",
+    "KULIAH/WBD/8. Authentication.md",
+    "CTF/WEB EX",
+    "KULIAH/WBD/7. Server Side Data Access, Authentication.md",
+    "KULIAH/WBD/6. State Handling.md",
+    "KULIAH/WBD",
+    "KULIAH/AI/6. Knowledge Based Systems.md",
+    "KULIAH/SisBasDat/7. Query Processing.md",
+    "KULIAH/SisBasDat/4. Indexing.md",
+    "KULIAH/SisBasDat/6. Index Tuning.md",
+    "KULIAH/SisBasDat/5. Schema Tuning.md",
+    "KULIAH/TBFO/OpenMP.md",
+    "CTF/CTF Learn.md",
+    "index.md",
     "KULIAH/SisParTer",
+    "KULIAH/AI/3. Classical & Local Search.md",
+    "KULIAH/AI/2. Intelligent Agent.md",
     "KULIAH/Forensik Digital",
     "IMAGES/Pasted image 20250906124651.png",
     "IMAGES/Pasted image 20250906124631.png",
