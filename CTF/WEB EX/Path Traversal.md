@@ -11,7 +11,8 @@ Examples:
 - sanitation of raw strings only, allowing **URL encoding** to work
 	- Sometimes you need to do double URL encoding (encode the already encoded)
 - it needs to start with the expected base folder (i.e. `/var/www/images)
-- it needs to have a certain file extension, you can use **null bytes** to cut off the string
+- it needs to have a certain file extension (you can use **null bytes** to cut off the string)
+	- Example: `this\x00.jpg` might be parsed by the WAF as ending with `.jpg` but the os parses it as `this`.
 
 # How to Prevent
 The first and foremost way is to not pass user input to **filesystem APIs**, or you can make the path sanitation robust.

@@ -7,6 +7,7 @@ We can do this many times for many usernames to get a list of valid usernames to
 Sometimes when asked for 2FA you might already be logged in, and the 2FA step can be skipped entirely if the implementation is bad.
 
 # SSRF
+(More: [[SSRF]])
 Cause the server to connect to unintended locations, which can leak sensitive data. This can be done against the server (server connect to internal service) or external.
 ## SSRF Against the Server
 Done by supplying `localhost` URL to the server. The server will request/fetch data from such URL and can leak data (i.e. if the server fetch data from `localhost/admin` then contents of `admin` can be leaked).
@@ -53,7 +54,7 @@ Make sure your payload is in this form
 The last `&` is there to make sure the command isnt polluted with other tokens.
 
 # SQLi
-
+(more: [[SQLi]])
 Tipically, the most basic [[SQLi]] have to do with quotation and how they can end or cut queries done by the server. You can also use command mark `--` in conjunction.
 
 Example, with query

