@@ -8,3 +8,4 @@
 	- `epi<size>` - Extended Packed Integer (ex. `epi8`)
 	- `epu<size>` - Extended Packed Unsigned Integer
 - `_mm` - MultiMedia extensions (MMX)
+Vectorization is SIMD while typical parallelization is MIMD.
