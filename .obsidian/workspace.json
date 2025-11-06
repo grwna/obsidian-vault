@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "517da9ee729d7ba2",
+        "id": "8a05f484044f6d57",
         "type": "tabs",
         "children": [
           {
-            "id": "efbf34095abcf004",
+            "id": "0db11daad04b1bfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KULIAH/SisParTer/Vectorization.md",
+                "file": "CTF/WEB EX/File Upload Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vectorization"
-            }
-          },
-          {
-            "id": "99245479453a2dc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KULIAH/AI/9. Data Science.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "9. Data Science"
-            }
-          },
-          {
-            "id": "9fc25c4c3af5666b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KULIAH/SBD/11. Transaction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11. Transaction"
+              "title": "File Upload Vulnerabilities"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0efa854708d1fa42",
@@ -171,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KULIAH/SisBasDat/6. Index Tuning.md",
+                "file": "KULIAH/WBD/5. Ajax.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6. Index Tuning"
+              "title": "Outline of 5. Ajax"
             }
           }
         ],
@@ -199,51 +169,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9fc25c4c3af5666b",
+  "active": "0db11daad04b1bfb",
   "lastOpenFiles": [
-    "KULIAH/AI/9. Data Science.md",
-    "KULIAH/SBD/11. Transaction.md",
-    "KULIAH/SisParTer/Vectorization.md",
-    "Pasted image 20251012155305.png",
-    "KULIAH/SBD/10. Database Security.md",
-    "KULIAH/AI/8. Learning Agent.md",
-    "CTF/WEB EX/SSRF.md",
-    "CTF/WEB EX/PortSwigger/PortSwigger Plan.md",
+    "KULIAH/SisParTer/Sistem Paralel/GPU.md",
+    "KULIAH/AI/7. Rule Based Systems.md",
+    "Shared Memory (OpenMP).md",
+    "KULIAH/SisParTer/Sistem Paralel/Hardware Parallelism.md",
+    "KULIAH/WBD/UTS WBD.md",
+    "Pasted image 20251019142719.png",
+    "KULIAH/SisParTer/Sistem Paralel/OpenMP.md",
+    "KULIAH/SisParTer/Sistem Paralel/Shared Memory (Pthreads).md",
+    "KULIAH/SisParTer/Sistem Paralel/Distributed Memory (MPI).md",
+    "Pasted image 20251018152419.png",
+    "KULIAH/SisParTer/Sistem Paralel/Sistem Paralel dan Terdistribusi.md",
+    "KULIAH/SisParTer/Sistem Paralel",
     "CTF/WEB EX/Path Traversal.md",
-    "KULIAH/SisParTer/GPU.md",
+    "CTF/WEB EX/File Upload Vulnerabilities.md",
+    "CTF/WEB EX/Server Side.md",
+    "CTF/WEB EX/PortSwigger/SQLi Labs.md",
     "CTF/WEB EX/PortSwigger/Server Side Labs.md",
-    "KULIAH/SisParTer 1",
-    "Pasted image 20250928231817.png",
-    "CTF/WEB EX/PortSwigger",
-    "Pasted image 20250928230518.png",
+    "CTF/WEB EX/PortSwigger/PortSwigger Plan.md",
+    "CTF/WEB EX/SSRF.md",
+    "CTF/WEB EX/SQLi.md",
+    "KULIAH/WBD/5. Ajax.md",
+    "KULIAH/SBD/11. Transaction.md",
+    "KULIAH/Project Management/Project Risk Management.md",
+    "KULIAH/Project Management/Project Quality Management.md",
+    "KULIAH/Forensik Digital/UTS.md",
+    "KULIAH/AI/9. Data Science.md",
+    "CTF/PWN/Heap Exploitation.md",
+    "CTF/PWN/Introduction to PWN.md",
+    "Pasted image 20251012155305.png",
     "Pasted image 20250929101706.png",
-    "Pasted image 20250929204249.png",
-    "README.md",
-    "CTF/WEB EX/Authentication.md",
-    "KULIAH/SisBasDat/8. Query Optimization.md",
-    "KULIAH/WBD/8. Authentication.md",
-    "CTF/WEB EX",
-    "KULIAH/WBD/7. Server Side Data Access, Authentication.md",
-    "KULIAH/WBD/6. State Handling.md",
-    "KULIAH/WBD",
-    "KULIAH/AI/6. Knowledge Based Systems.md",
-    "KULIAH/SisBasDat/7. Query Processing.md",
-    "KULIAH/SisBasDat/4. Indexing.md",
-    "KULIAH/SisBasDat/6. Index Tuning.md",
-    "KULIAH/SisBasDat/5. Schema Tuning.md",
-    "KULIAH/TBFO/OpenMP.md",
-    "CTF/CTF Learn.md",
-    "index.md",
     "KULIAH/SisParTer",
-    "KULIAH/AI/3. Classical & Local Search.md",
-    "KULIAH/AI/2. Intelligent Agent.md",
+    "Pasted image 20251006115948.png",
+    "KULIAH/Project Management",
+    "CTF/WEB EX/Server Side",
+    "CTF/WEB EX/PortSwigger",
+    "CTF/WEB EX",
+    "KULIAH/WBD",
+    "Pasted image 20250929204249.png",
+    "Pasted image 20250928231817.png",
+    "Pasted image 20250928230518.png",
+    "KULIAH/SisParTer",
     "KULIAH/Forensik Digital",
     "IMAGES/Pasted image 20250906124651.png",
     "IMAGES/Pasted image 20250906124631.png",
-    "IMAGES/Pasted image 20250906122259.png",
-    "KULIAH/AI",
-    "KULIAH/SBD",
-    "IMAGES/Pasted image 20250905005132.png",
-    "IMAGES/example_dfa.png"
+    "KULIAH/AI"
   ]
 }

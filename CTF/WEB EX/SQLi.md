@@ -18,7 +18,7 @@ You will often use `--` in the query to avoid syntax error due to deformed synta
 
 >[!Tip]
 >Use Burp Repeater to test out payload.
-## UNION Attacks
+# UNION Attacks
 Used to do `SELECT` statements from different tables.
 **Conditions for UNION**
 In order for the UNION attack to work, these conditions must be met:
@@ -112,3 +112,4 @@ This query returns whether the first character of the password is larger than m.
 	- **Payload**: '; `IF (SELECT COUNT(Username) FROM Users WHERE Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') = 1 WAITFOR DELAY '0:0:{delay_amount}'--`
 	- The payload above is Microsoft db syntax
 
+# Blind SQLi with OAST

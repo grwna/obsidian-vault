@@ -18,6 +18,7 @@ Keep in mind this can only happen if the server is allowed to have full access t
 Practically the same as server, but this time not to the localhost.
 
 # File Upload Vuln
+[[File Upload Vulnerabilities]]
 When users are allowed to upload files. There need to be restrictions on the types, names, etc. of the files. Failing to do so may allow hackers to cause harm by RCE or other danger caused by the file upload.
 **RCE**
 Some attacks upload files, then send a follow up HTTP request to trigger the execution of the file.
