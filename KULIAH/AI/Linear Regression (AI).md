@@ -39,8 +39,12 @@ $$SSE=\sum_{i=1}^n(y_{i}-b_{0}-b_{1}x_{i})^2$$
 # Model Evaluation
 After **training**, we can evaluate the model's performance by using several measures:
 1. MAE
+$$MAE=\frac{1}{n}\sum|y_{i}-\hat{y}_{i}|$$
 2. MSE
+$$MSE=\frac{1}{n}\sum(y_{i}-\hat{y}_{i})^2$$
+
 3. R2-Score
+$$R2=1-\frac{\sum(y_{i}-\hat{y}_{i})^2}{\sum(y_{i}-\overline{y})^2}$$
 
 # Summary of LSE
 - **Hypothesis** ($h$): Linear Function $h_{\theta}(x)=\theta^T\cdot x$
@@ -49,3 +53,4 @@ After **training**, we can evaluate the model's performance by using several mea
 - **Solutions**
 	- **Analytic**: Find $\theta$ by deriving 
 	- **Iterative**: if not found using analytic, use numeric methods like ***gradient descent***.
+
