@@ -31,3 +31,21 @@ Minimize SSE
 $$SSE=\sum_{i=1}^ne_{i}^2$$
 $$SSE=\sum_{i=1}^n(y_{i}-\hat{y}_{i})^2$$
 $$SSE=\sum_{i=1}^n(y_{i}-b_{0}-b_{1}x_{i})^2$$
+# Regression For Supervised Learning
+1. **Training**: give labeled data to LSE formula
+2. **Learning**: LSE calculates and results in hypothesis (ex. $h(x)=124.41+39.2x$)
+3. **Prediction**: $h$ is then used to predict $y$ values on new data.
+
+# Model Evaluation
+After **training**, we can evaluate the model's performance by using several measures:
+1. MAE
+2. MSE
+3. R2-Score
+
+# Summary of LSE
+- **Hypothesis** ($h$): Linear Function $h_{\theta}(x)=\theta^T\cdot x$
+- **Cost Function** $J(\theta)$ : the function that we want to minimize. For LSE, $J(\theta)=SSE$ 
+- **Goal** : find $\theta$ such that $J(\theta)$ is minimal.
+- **Solutions**
+	- **Analytic**: Find $\theta$ by deriving 
+	- **Iterative**: if not found using analytic, use numeric methods like ***gradient descent***.
