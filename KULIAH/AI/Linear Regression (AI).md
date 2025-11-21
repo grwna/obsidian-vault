@@ -1,4 +1,4 @@
-# Keywords
+ # Keywords
 - Dependent vs Independent Variables
 - Simple Linear Regression (SLR)
 - Intercept ($\beta_{0}$) and Slope ($\beta_{1}$)
