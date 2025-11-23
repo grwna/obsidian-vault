@@ -4,24 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "8a05f484044f6d57",
+        "id": "f68e16b61f651977",
         "type": "tabs",
         "children": [
           {
-            "id": "0db11daad04b1bfb",
+            "id": "3ee744ee11e502c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/WEB EX/File Upload Vulnerabilities.md",
+                "file": "Books/An Introduction to Mathematical Cryptography/1. An Introduction to Cryptography/Simple Substitution Ciphers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Upload Vulnerabilities"
+              "title": "Simple Substitution Ciphers"
+            }
+          },
+          {
+            "id": "b89554bf22ebab10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/An Introduction to Mathematical Cryptography/1. An Introduction to Cryptography/Divisibility and Greatest Common Divisor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Divisibility and Greatest Common Divisor"
+            }
+          },
+          {
+            "id": "862db3ac99411766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Reading Log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reading Log"
+            }
+          },
+          {
+            "id": "658f82cd85c60c38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/How To Prove It/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "54d8901156722903",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/How To Prove It/1. Sentential Logic/Deductive Reasoning and Logical Connectives.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deductive Reasoning and Logical Connectives"
+            }
+          },
+          {
+            "id": "274213eaca7c07b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Reading Log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reading Log"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -169,52 +240,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0db11daad04b1bfb",
+  "active": "274213eaca7c07b4",
   "lastOpenFiles": [
-    "KULIAH/SisParTer/Sistem Paralel/GPU.md",
-    "KULIAH/AI/7. Rule Based Systems.md",
-    "Shared Memory (OpenMP).md",
-    "KULIAH/SisParTer/Sistem Paralel/Hardware Parallelism.md",
-    "KULIAH/WBD/UTS WBD.md",
-    "Pasted image 20251019142719.png",
-    "KULIAH/SisParTer/Sistem Paralel/OpenMP.md",
-    "KULIAH/SisParTer/Sistem Paralel/Shared Memory (Pthreads).md",
-    "KULIAH/SisParTer/Sistem Paralel/Distributed Memory (MPI).md",
-    "Pasted image 20251018152419.png",
-    "KULIAH/SisParTer/Sistem Paralel/Sistem Paralel dan Terdistribusi.md",
-    "KULIAH/SisParTer/Sistem Paralel",
-    "CTF/WEB EX/Path Traversal.md",
+    "Books/How To Prove It/1. Sentential Logic/Deductive Reasoning and Logical Connectives.md",
+    "Books/How To Prove It/1. Sentential Logic/Truth Tables.md",
+    "Books/Reading Log.md",
+    "Books/How To Prove It/Introduction.md",
+    "Books/An Introduction to Mathematical Cryptography/1. An Introduction to Cryptography/Divisibility and Greatest Common Divisor.md",
+    "Books/How To Prove It/1. Sentential Logic",
+    "Books/How To Prove It",
+    "Books/An Introduction to Mathematical Cryptography/2. Discrete Logarithms and Diffie-Helman/Rings, Quotients, Polynomials, and Finite Fields.md",
+    "Books/An Introduction to Mathematical Cryptography/2. Discrete Logarithms and Diffie-Helman",
+    "Books/An Introduction to Mathematical Cryptography/1. An Introduction to Cryptography/Simple Substitution Ciphers.md",
+    "Books/An Introduction to Mathematical Cryptography/1. An Introduction to Cryptography",
+    "Books/An Introduction to Mathematical Cryptography",
+    "Untitled 1",
+    "Books",
+    "IMAGES/Pasted image 20251116115715.png",
+    "KULIAH/AI/Support Vector Machine.md",
+    "KULIAH/AI/Support Vector Machines.md",
+    "IMAGES/Pasted image 20251119072914.png",
+    "CTF/Crypto/Vigenere Cipher.md",
+    "CTF/Crypto/Caesar Cipher.md",
+    "CTF/Crypto",
+    "KULIAH/SisParTer/Sistem Terdistribusi",
+    "KULIAH/SBD/Concurrency Control - 2.md",
+    "KULIAH/SBD/Concurrency Control - 1.md",
+    "KULIAH/AI/Issues in Decision Tree Learning.md",
+    "KULIAH/AI/Prediction Measurement.md",
+    "KULIAH/AI/Logistic Regression (AI).md",
+    "IMAGES/Pasted image 20251116214038.png",
+    "IMAGES/Pasted image 20251116212858.png",
+    "IMAGES/Pasted image 20251116211513.png",
+    "IMAGES/Pasted image 20251116200541.png",
+    "KULIAH/AI/Linear Regression (AI).md",
+    "IMAGES/Pasted image 20251115131032.png",
+    "IMAGES/Pasted image 20251116115604.png",
+    "IMAGES/Pasted image 20251116115603.png",
+    "IMAGES/Pasted image 20251116113611.png",
+    "KULIAH/AI/Decision Tree Learning.md",
+    "KULIAH/AI/k-Nearest Neighbour.md",
     "CTF/WEB EX/File Upload Vulnerabilities.md",
-    "CTF/WEB EX/Server Side.md",
+    "CTF/MISC/Python.md",
+    "CTF/MISC",
     "CTF/WEB EX/PortSwigger/SQLi Labs.md",
-    "CTF/WEB EX/PortSwigger/Server Side Labs.md",
     "CTF/WEB EX/PortSwigger/PortSwigger Plan.md",
-    "CTF/WEB EX/SSRF.md",
-    "CTF/WEB EX/SQLi.md",
-    "KULIAH/WBD/5. Ajax.md",
-    "KULIAH/SBD/11. Transaction.md",
-    "KULIAH/Project Management/Project Risk Management.md",
-    "KULIAH/Project Management/Project Quality Management.md",
-    "KULIAH/Forensik Digital/UTS.md",
-    "KULIAH/AI/9. Data Science.md",
-    "CTF/PWN/Heap Exploitation.md",
-    "CTF/PWN/Introduction to PWN.md",
-    "Pasted image 20251012155305.png",
-    "Pasted image 20250929101706.png",
-    "KULIAH/SisParTer",
-    "Pasted image 20251006115948.png",
-    "KULIAH/Project Management",
-    "CTF/WEB EX/Server Side",
-    "CTF/WEB EX/PortSwigger",
-    "CTF/WEB EX",
-    "KULIAH/WBD",
-    "Pasted image 20250929204249.png",
-    "Pasted image 20250928231817.png",
-    "Pasted image 20250928230518.png",
-    "KULIAH/SisParTer",
-    "KULIAH/Forensik Digital",
-    "IMAGES/Pasted image 20250906124651.png",
-    "IMAGES/Pasted image 20250906124631.png",
-    "KULIAH/AI"
+    "CTF/WEB EX/PortSwigger/Server Side Labs.md",
+    "KULIAH/SisParTer/Sistem Paralel/GPU.md",
+    "KULIAH/AI/7. Rule Based Systems.md"
   ]
 }
