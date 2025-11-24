@@ -1,0 +1,4 @@
+
+| Symbol       | Meaning   |
+| ------------ | --------- |
+| $\therefore$ | Therefore |
