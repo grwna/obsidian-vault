@@ -1,5 +1,17 @@
+- [[#**Keywords**|**Keywords**]]
+- [[#**Variables**|**Variables**]]
+- [[#**Sets**|**Sets**]]
+	- [[#**Sets**#Set Definition|Set Definition]]
+	- [[#**Sets**#Free and Bound Variables|Free and Bound Variables]]
+	- [[#**Sets**#Truth Set|Truth Set]]
+- [[#**Operations on Sets**|Operations on Sets]]
+
 # **Keywords**
-- a
+- Free/Bound Variables
+- Truth set
+- Universe of Discourse
+- Empt Set
+- Venn diagram
 
 # **Variables**
 Some examples of variable usage are:
@@ -44,3 +56,35 @@ The expression $\{x\mid P(x)\}$ is not a statement, but rather a name for a set.
 **It is very important** to distinguish between expressions that are mathematical statements and expressions that are  names for mathematical objects.
 
 ## Truth Set
+The truth set of a statement, for example the statement $P(x)$, is the set of all values of $x$ that makes the statement $P(x)$ true. Or in other words:
+$$\text{truth set}=\{x\mid P(x)\}$$
+>[!important]
+>This definition applies for statements with 1 *free variables*. Multiple free variables's truth set will be explored in Chapter 4.
+
+**Universe of Discourse** (denoted as $U$) for a statement is all possible values of a free variable in the statement.
+Common *universe of discourse* in math are: $[\mathbb{R},\mathbb{Q},\mathbb{Z},\mathbb{N}]$. 
+Example usage in set notation:
+$$y\in \{x\in\mathbb{R}\mid x^2<9\}$$
+Which means the same thing as:
+$$y\in \mathbb{R}\land y^2<9$$
+>[!note]
+>$\mathbb{R}^+$ means positive real numbers only
+>$\mathbb{Z}^-$ means negative integers only
+
+A truth set of a statement can contain the entire universe $U$, or nothing (empty set $\varnothing$). This is similar to the concept of [[Deductive Reasoning and Logical Connectives#Tautologies and Contradictions|Tautologies and Contradictions]].
+
+>[!note]
+>$\varnothing$ is an empty set $\{\varnothing \}$ is a set containing an empty set
+
+
+# **Operations on Sets**
+Basic set operations
+**Intersection**
+$$A\cap B=\{ x\mid x \in A \text{ and } x\in B \}$$
+**Union**
+$$A\cup B=\{ x\mid x \in A \text{ or } x\in B \}$$
+
+**Difference**
+$$A\setminus B=\{ x\mid x \in A \text{ and } x\notin B \}$$
+
+
