@@ -2,6 +2,8 @@
 - Well-formed formulas
 - Truth tables
 - Equivalent formulas
+- Tautology
+- Contradiction
 
 # Deductive Reasoning
 Deductive reasoning is the foundation of which proofs are based.
