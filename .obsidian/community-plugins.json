@@ -2,5 +2,8 @@
   "obsidian-latex-suite",
   "obsidian-plugin-toc",
   "obsidian-scroll-to-top-plugin",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "obsidian-icon-folder",
+  "vim-toggle",
+  "obsidian-vimrc-support"
 ]

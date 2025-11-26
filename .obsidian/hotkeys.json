@@ -192,5 +192,13 @@
       ],
       "key": "Q"
     }
+  ],
+  "vim-toggle:toggle-vim": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
   ]
 }

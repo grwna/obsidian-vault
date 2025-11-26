@@ -12,6 +12,7 @@
 - Universe of Discourse
 - Empt Set
 - Venn diagram
+- Symmetric Difference
 
 # **Variables**
 Some examples of variable usage are:
@@ -87,4 +88,19 @@ $$A\cup B=\{ x\mid x \in A \text{ or } x\in B \}$$
 **Difference**
 $$A\setminus B=\{ x\mid x \in A \text{ and } x\notin B \}$$
 
+**Venn Diagrams** makes it easier for us to understand operations on sets.
 
+**Symmetric Difference** (the XOR of set operations)
+$$A\triangle B = (A\setminus B)\cup(B\setminus A)=(A\cup B)\setminus(B\cup A)$$
+
+**Connections of Set Operations and Logical Connectives**
+If $A$ is the truth set of $P(x)$ and $B$ is the truth set of $Q(x),$ what is the truth set of $P(x)\land Q(x)$, $P(x)\lor Q(x)$, and $\neg P$?
+
+We can use set operations to define them:
+
+| Logical          | Set            |
+| ---------------- | -------------- |
+| $P(x)\land Q(x)$ | $A\cap B$      |
+| $P(x)\lor Q(x)$  | $A\cup B$      |
+| $\neg P$         | $U\setminus A$ |
+Keep in mind however, that they are not interchangeable, as their operands are different.
