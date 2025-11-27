@@ -32,12 +32,46 @@ Find the optimal separating hyperplane which maximizes the margin of the trainin
 Uses *quadratic optimization* to avoid local minimum that is present in *Neural Networks*.
 
 **Hyperplane Classifier**
-The size of a margin is equal to $\frac{2}{\lvert \lvert w \rvert \rvert}$
+The size of a margin is equal to $\frac{2}{\lvert \lvert w \rvert \rvert}$, which means to optimize hyperplane we need to minimize $\lvert \lvert w \rvert \rvert$ while keeping concistencies with the data.
 
 **Vector Direction**
 ![[Pasted image 20251127150502.png|600]]
 
 # SVM for Linearly Separable Data
+## Support Vectors
 Two classes can be separated by a pair of linear separator. **Support Vectors** are Vectors in training data that *supports* the separators.
 
+More specifically, support vectors are *data points* that lie closest to the decision surface (or hyperplane). They are the data points that are most difficult to classify, and have direct bearing on the optimum position of the separator.
+
 Larger margins has better generalization, data close to the separator represents uncertainty in classification.
+
+**Support Vectors** Satisfies $$\vert\vec{w}\cdot \vec{x_{i}} +b\vert=1$$ where $x_{i}$ is the i-th  support vector
+And all data points in training data with labels "+" and "-" satisfies 
+$$y_{i}(\vec{w}\cdot \vec{x_{i}} +b)\geq1$$
+As stated in [[Support Vector Machine#What & Why|Hyperplane Classifier]], we need to minimize:
+$$V(\vec{w}, b)=\frac{1}{2}\vec{w}\cdot \vec{w}$$
+## Lagrangian Formula
+An easier way to calculate the search for the optimal hyperplane.
+![[Pasted image 20251127164837.png|500]]
+
+>[!important]
+>The magnitude of $\alpha_{i}$ indicates weight, or inflience of the data point $x_{i}$
+
+But why do we only take non-zero alphas?
+![[Pasted image 20251127172412.png]]
+
+**Lagrangian Dual Problem**
+![[Pasted image 20251127165357.png|400]]
+
+To further simplify it (removed the dependence on $w$ and $b$)
+![[Pasted image 20251127170243.png |400]]
+
+## Quadratic Optimization Problem
+![[Pasted image 20251127170820.png|400]]
+
+**Quadratic Programming**
+QP is the problem of optimizing a quadratic objective funciton and is one of the simplests form of non-linear programming.
+![[Pasted image 20251127172639.png|300]]
+
+The objective function can contain bilinear or up to second order polynomial terms, and the constraints are linear and can be both equalities and inequalities.
+
