@@ -84,6 +84,10 @@ We say $A\subseteq B$, ($A$ is a *subset* of $B$), if every element of $A$ is al
 **Disjoints**
 Two sets $A$, and $B$ are *disjoint* if $A\cap B=\varnothing$
 
+**Example of Mathematical Proofs using Deductive Reasoning**
+![[Pasted image 20251129163923.png|500]]
+
+
 # **Operations on Sets**
 Basic set operations
 **Intersection**
@@ -98,6 +102,7 @@ $$A\setminus B=\{ x\mid x \in A \text{ and } x\notin B \}$$
 
 **Symmetric Difference** (the XOR of set operations)
 $$A\triangle B = (A\setminus B)\cup(B\setminus A)=(A\cup B)\setminus(B\cup A)$$
+This is the opposite of intersection.
 
 **Connections of Set Operations and Logical Connectives**
 If $A$ is the truth set of $P(x)$ and $B$ is the truth set of $Q(x),$ what is the truth set of $P(x)\land Q(x)$, $P(x)\lor Q(x)$, and $\neg P$?
@@ -114,4 +119,7 @@ Laws of equivalence (read: [[Deductive Reasoning and Logical Connectives#Equival
 
 >[!note]
 >The distributive laws require **two different** operators. If it has the same operators, then it uses commutative laws in tandem with idempotent laws instead.
+>**Remember**: associative laws only apply with same operators
+
+
 
