@@ -77,6 +77,12 @@ A truth set of a statement can contain the entire universe $U$, or nothing (empt
 >[!note]
 >$\varnothing$ is an empty set $\{\varnothing \}$ is a set containing an empty set
 
+## Subsets and Supersets
+**Subsets**
+We say $A\subseteq B$, ($A$ is a *subset* of $B$), if every element of $A$ is also an element of $B$.
+
+**Disjoints**
+Two sets $A$, and $B$ are *disjoint* if $A\cap B=\varnothing$
 
 # **Operations on Sets**
 Basic set operations
@@ -104,3 +110,8 @@ We can use set operations to define them:
 | $P(x)\lor Q(x)$  | $A\cup B$      |
 | $\neg P$         | $U\setminus A$ |
 Keep in mind however, that they are not interchangeable, as their operands are different.
+Laws of equivalence (read: [[Deductive Reasoning and Logical Connectives#Equivalences|Equivalences]]) for logical connectives also works with sets.
+
+>[!note]
+>The distributive laws require **two different** operators. If it has the same operators, then it uses commutative laws in tandem with idempotent laws instead.
+

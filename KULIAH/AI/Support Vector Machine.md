@@ -15,10 +15,11 @@ A linearly separable data is a data in which when plotted, the values of two cla
 
 **Linear Classifier**
 The line that separates linearly separable data. A linear classifier has the form:
-$$f(x)=w^Tx+b$$
+$$f(x)=w^\intercal x+b$$
 In 2D the discriminant is a line: 
 - $w$ - a normal to the line (know as the weight vector)
 - $b$ - bias
+- $\intercal$ - means transpose
 In 3D, the discriminant is a plane, and in nD it is a hyperplane.
 
 For a k-NN classifier, it is necessary to carry the training data
@@ -38,6 +39,7 @@ The size of a margin is equal to $\frac{2}{\lvert \lvert w \rvert \rvert}$, whic
 ![[Pasted image 20251127150502.png|600]]
 
 # SVM for Linearly Separable Data
+Source: [youtube](https://www.youtube.com/watch?v=RTcwgAlUwlo)
 ## Support Vectors
 Two classes can be separated by a pair of linear separator. **Support Vectors** are Vectors in training data that *supports* the separators.
 
@@ -75,3 +77,46 @@ QP is the problem of optimizing a quadratic objective funciton and is one of the
 
 The objective function can contain bilinear or up to second order polynomial terms, and the constraints are linear and can be both equalities and inequalities.
 
+**Geometric Representation**
+![[Pasted image 20251127183708.png|400]]
+>[!important]
+>Know the difference between separator plane, and boundary plane. The separator is the solid line while boundaries are the dotted lines.
+
+
+**Example**
+For the data:
+
+| x1  | x2  | Class |
+| --- | --- | ----- |
+| 3   | 1   | +1    |
+| 3   | -1  | +1    |
+| 6   | 1   | +1    |
+| 6   | -1  | +1    |
+| 1   | 0   | -1    |
+| 0   | 1   | -1    |
+| 0   | -1  | -1    |
+| -1  | 0   | -1    |
+In order to get the alphas we can do this:
+![[Pasted image 20251128091240.png|500]]
+
+Remember that the support vectors are the closes to the separator (there should be a separator line at $x1 = 2$).
+
+Also focus on:
+$$f(\vec{x})=\sum_{i=1}^{nsv}(\alpha_{i}y_{i}\vec{x_{i}}\vec{x})+b \tag{1}$$
+$nsv$ -  means iterate over all support vectors.
+$\text{Everything with } i$ - things related to the support vector
+
+Basically we want to operate each support vectors, which will operate it with all other support vectors (including itself), and simplify the equation to include only $\alpha$ and $b$. And then solve $\alpha_{i}$ and $b$.
+![[Pasted image 20251128131515.png|400]]
+Now that we have the values for $\alpha$ and $b$, substitute them into eq(1). Now you can use eq(1) to predict a data's class by plugging its value into the $\vec{x}$ (NOT $\vec{x_{i}}$)
+
+NOTE: remember that $\alpha_{i}$ means the alpha for the $i$-th support vector (or any vectors, but the ones that will be used are support vectors's alpha)
+
+>[!important] Difference of SVM by Hand and Program Implementation
+> **SVM by Hand**
+>- Identify support vectors visually 
+>- Calculate alphas based on the support vectors
+> 
+> **Program Implementation**
+> - Iterately solve the large **Dual Optimization Problem** to find the optimal set of $\alpha_{i}$, for every single training point.
+> - Determine support vectors, which are the training points whose $\alpha_{i}$ is greater than **zero**
