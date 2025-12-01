@@ -2,4 +2,7 @@
 Stops at 8 - 22 Nov 25
 Stops at truth table - 24 Nov 25
 Stops at operations on sets (page 37) - 25 Nov 25
-Exercise Chapter 4: do exercise 9, 11, 13, 15, 16, 17
+**Exercise Section 1.4: do exercise 9, 11, 13, 15, 16, 17**
+**Exercise Section 1.5: Do 11.b, 12**
+**Might need to revisit Quantificational Logic (HARD AF BOIII)**
+**Exercise Section 2.1**: Redo all
