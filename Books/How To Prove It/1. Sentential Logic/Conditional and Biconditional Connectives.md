@@ -3,14 +3,7 @@
 - Consequent
 - Converse
 - Contrapositive
-- 
 
-\begin{array}{l}
-  P \to Q \\
-  P \\
-  \hline
-  \therefore Q
-\end{array}
 # Conditional Statement
 $$
 \begin{array}{l}
@@ -73,3 +66,6 @@ We can make the truth table, lets say we get:
 | $L \leftrightarrow (P\land C)$ | $\neg C$ | $L\leftrightarrow P$ |
 | ------------------------------ | -------- | -------------------- |
 | T                              |          |                      |
+Then to determine whether the argument is valid or not, we find a line such that *every premise* is true. Then from the truth value of the *conclusion* we can say:
+- Conclusion is false - then the argument is invalid
+- Conclusion is true- then the argument is valid
