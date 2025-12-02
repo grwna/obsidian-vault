@@ -26,7 +26,7 @@
 $$P\to Q \text{ is equivalent to }\neg Q\to \neg P$$
 Useful to prove something when the contrapositive is easier to prove.
 
-**Exercixe 11.b Section 1.5**
+**Exercise 11.b Section 1.5**
 $$(P\lor Q)\leftrightarrow Q \text{ is equivalent to } P\to Q$$
 $$(P\land Q)\leftrightarrow Q \text{ is equivalent to } Q\to P$$
 

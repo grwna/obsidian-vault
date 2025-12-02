@@ -6,9 +6,12 @@
 	- [[#Quantifiers#Translating Quantificational Logic to English|Translating Quantificational Logic to English]]
 - [[#Equivalences Involving Quantifiers|Equivalences Involving Quantifiers]]
 	- [[#Equivalences Involving Quantifiers#Quantifier Negation Laws|Quantifier Negation Laws]]
+	- [[#Equivalences Involving Quantifiers#Uniqueness Quantifier|Uniqueness Quantifier]]
 	- [[#Equivalences Involving Quantifiers#Bounded Quanfiers (Universe of Discourse)|Bounded Quanfiers (Universe of Discourse)]]
+	- [[#Equivalences Involving Quantifiers#Quantifiers on Empty Sets|Quantifiers on Empty Sets]]
+	- [[#Equivalences Involving Quantifiers#Validation of Quantificational Statements|Validation of Quantificational Statements]]
+- [[#Closing Remarks|Closing Remarks]]
 - [[#Exercises|Exercises]]
-
 
 # Keywords
 - Universal Quantifier
