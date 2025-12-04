@@ -1,12 +1,13 @@
-- [[#**Keywords**|**Keywords**]]
-- [[#**Variables**|**Variables**]]
-- [[#**Sets**|**Sets**]]
-	- [[#**Sets**#Set Definition|Set Definition]]
-	- [[#**Sets**#Free and Bound Variables|Free and Bound Variables]]
-	- [[#**Sets**#Truth Set|Truth Set]]
-- [[#**Operations on Sets**|Operations on Sets]]
+- [[#Keywords|Keywords]]
+- [[#Variables|Variables]]
+- [[#Sets|Sets]]
+	- [[#Sets#Set Definition|Set Definition]]
+	- [[#Sets#Free and Bound Variables|Free and Bound Variables]]
+	- [[#Sets#Truth Set|Truth Set]]
+	- [[#Sets#Subsets and Supersets|Subsets and Supersets]]
+- [[#Operations on Sets|Operations on Sets]]
 
-# **Keywords**
+# Keywords
 - Free/Bound Variables
 - Truth set
 - Universe of Discourse
@@ -14,7 +15,7 @@
 - Venn diagram
 - Symmetric Difference
 
-# **Variables**
+# Variables
 Some examples of variable usage are:
 - $P(x)$ - $x$ is a prime number
 - $D(p,q)$ - $p$ is divisible by $q$
@@ -25,7 +26,7 @@ In, [[Deductive Reasoning and Logical Connectives#Truth Tables|Truth Tables]], w
 
 To deal with this, we can use *truth sets* for statement containing variables.
 
-# **Sets**
+# Sets
 A set is a collection of objects. 
 - Orders does not matter. 
 - Duplicates does not matter.
@@ -88,7 +89,7 @@ Two sets $A$, and $B$ are *disjoint* if $A\cap B=\varnothing$
 ![[Pasted image 20251129163923.png|500]]
 
 
-# **Operations on Sets**
+# Operations on Sets
 Basic set operations
 **Intersection**
 $$A\cap B=\{ x\mid x \in A \text{ and } x\in B \}$$
@@ -119,7 +120,6 @@ Laws of equivalence (read: [[Deductive Reasoning and Logical Connectives#Equival
 
 >[!note]
 >The distributive laws require **two different** operators. If it has the same operators, then it uses commutative laws in tandem with idempotent laws instead.
->**Remember**: associative laws only apply with same operators
 
 
 

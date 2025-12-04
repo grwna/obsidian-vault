@@ -1,3 +1,11 @@
+
+- [[#Keywords|Keywords]]
+- [[#Deductive Reasoning|Deductive Reasoning]]
+- [[#Truth Tables|Truth Tables]]
+- [[#Laws of Logic|Laws of Logic]]
+	- [[#Laws of Logic#Equivalences|Equivalences]]
+	- [[#Laws of Logic#Tautologies and Contradictions|Tautologies and Contradictions]]
+
 # Keywords
 - Well-formed formulas
 - Truth tables

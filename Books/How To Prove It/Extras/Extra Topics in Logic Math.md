@@ -1,5 +1,9 @@
 NOTE: this section is not from the book. This is just extra materials that i found interesting.
 
+- [[#Prenex Normal Form|Prenex Normal Form]]
+- [[#Intuitionistic Logic|Intuitionistic Logic]]
+
+
 # Prenex Normal Form
 A formula is in *prenex normal form* (PNF) if it is written as a string of quantifiers as the prefix, followed by quantifier-free part, called the **matrix**.
 Example:
